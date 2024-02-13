@@ -1,0 +1,83 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background-image: url(backgroundimg1.jpg);
+    padding: 250px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.skills-padding{
+    padding: 100px 0;
+}
+.contact{
+    min-height: 50vh;
+    padding: 50px;
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.container h2{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: aqua;
+}
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+.contact-form{
+    text-align: left;
+}
+.contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: aqua;
+}
+.contact-info h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: aqua;
+}
+.contact-info{
+    text-align: left;
+}.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: aqua;
+}
+.contact-info p{
+    margin-bottom: 10px;
+    color: aquamarine;
+}
+.contact-info i{
+    margin-right: 10px;
+    color: aquamarine;
+}
+@media screen and(max-width: 768px){
+.container{
+    padding: 20px;
+}
+.contact-wrapper{
+    grid-template-columns: 1 fr;
+}
+}
+ .social-icons{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-top: 1.4rem;
+ }  
+ .social-icons i{
+    color: #fff;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: 0.4s;
+ } 
+.social-icons i:hover{
+    color: aqua;
+}
